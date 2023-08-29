@@ -1,0 +1,44 @@
+/* formStyles.css */
+.student-form {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    width: 70%;
+    max-width: 800px; 
+}
+
+.student-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.student-form input[type="text"],
+.student-form input[type="email"],
+.student-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.student-form label input[type="radio"] {
+    margin-right: 5px;
+}
+
+.student-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.student-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}

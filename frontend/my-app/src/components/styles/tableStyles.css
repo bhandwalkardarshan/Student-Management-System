@@ -1,0 +1,25 @@
+/* styles.css */
+#content > h2{
+    text-align: center;
+}
+
+.student-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
